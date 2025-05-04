@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+}
+
+/* Demo styling  */
+
+body {
+  background: #4568DC;
+  background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+  background: linear-gradient(to right, #B06AB3, #4568DC);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+code {
+  color: #665;
+  background: #fff;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+}
+
+.footer{
+    margin-top: auto;
+
+}
+.logo-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+.footerimg{
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+    border-radius: 50%;
+}
